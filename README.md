@@ -1,4 +1,4 @@
-# 🔷 NDP MASTER — Protocole Neighbor Discovery Protocol
+#  NDP MASTER — Protocole Neighbor Discovery Protocol
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=30&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&width=800&lines=NDP+MASTER;Neighbor+Discovery+Protocol;IPv6+Security;by+hackers_tchad+%F0%9F%87%B9%F0%9F%87%AC" alt="NDP MASTER" />
@@ -13,25 +13,14 @@
 
 ---
 
-## 🌍 Présentation
+##  Présentation
 
 **NDP MASTER** est un outil éducatif avancé créé par **hackers_tchad 🇹🇩** pour comprendre, pratiquer et visualiser le protocole **NDP (Neighbor Discovery Protocol)** utilisé en IPv6.
 
-> 🎯 **Mission** : apprendre le fonctionnement réel de NDP (RFC 4861), ses messages, ses menaces et ses contre-mesures de sécurité.
+>  **Mission** : apprendre le fonctionnement réel de NDP (RFC 4861), ses messages, ses menaces et ses contre-mesures de sécurité.
 
----
 
-## ⚠️ Avertissement
-
-```diff
-- Outil strictement éducatif.
-- Utilisez uniquement sur des réseaux que vous êtes autorisé à tester.
-- Le sniffing/injection nécessite souvent les privilèges root/admin.
-```
-
----
-
-## 📚 Qu'est-ce que NDP ?
+##  Qu'est-ce que NDP ?
 
 **NDP (Neighbor Discovery Protocol)** est un protocole de la couche réseau IPv6 défini dans la **RFC 4861**. Il combine et remplace plusieurs protocoles IPv4 :
 
@@ -41,7 +30,7 @@
 | ICMP Router Discovery | NDP Router Solicitation / Advertisement |
 | ICMP Redirect | NDP Redirect |
 
-### 🎯 Fonctions principales de NDP
+###  Fonctions principales de NDP
 
 1. **Découverte des routeurs** : trouver les routeurs sur le lien local.
 2. **Autoconfiguration sans état (SLAAC)** : obtenir un préfixe réseau et configurer une IPv6.
@@ -52,7 +41,7 @@
 
 ---
 
-## 📦 Types de messages NDP (ICMPv6)
+##  Types de messages NDP (ICMPv6)
 
 | Type ICMPv6 | Nom | Rôle |
 |-------------|-----|------|
@@ -64,7 +53,7 @@
 
 ---
 
-## 🛠️ Installation
+##  Installation
 
 ```bash
 # Cloner ou copier les fichiers
@@ -80,7 +69,7 @@ pip install -r requirements_ndp.txt
 
 ---
 
-## 🚀 Commandes
+##  Commandes
 
 ### Lancer l'interface graphique
 
@@ -162,23 +151,23 @@ netsh interface ipv6 delete neighbors
 
 ---
 
-## ✨ Fonctionnalités
+##  Fonctionnalités
 
-- 🖥️ Interface graphique Tkinter futuriste bleue/cyan
-- 📘 Cours complet intégré sur NDP (RFC 4861)
-- 📦 Simulation des 5 messages NDP
-- 🌐 Table de voisins dynamique
-- 💻 Terminal intégré avec commandes CLI
-- 🕸️ Visualisation réseau 2D animée
-- 🛡️ Section sécurité NDP (menaces & contre-mesures)
-- ❓ Quiz interactif
-- 📤 Export JSON / CSV
-- 🔍 Sniffing NDP réel avec Scapy (mode root)
-- 🎨 Animation d'en-tête
+-  Interface graphique Tkinter futuriste bleue/cyan
+-  Cours complet intégré sur NDP (RFC 4861)
+-  Simulation des 5 messages NDP
+-  Table de voisins dynamique
+-  Terminal intégré avec commandes CLI
+-  Visualisation réseau 2D animée
+-  Section sécurité NDP (menaces & contre-mesures)
+-  Quiz interactif
+-  Export JSON / CSV
+-  Sniffing NDP réel avec Scapy (mode root)
+-  Animation d'en-tête
 
 ---
 
-## 🛡️ Sécurité NDP
+##  Sécurité NDP
 
 ### Menaces
 
@@ -197,7 +186,7 @@ netsh interface ipv6 delete neighbors
 
 ---
 
-## 📚 Ressources d'apprentissage
+##  Ressources d'apprentissage
 
 ### RFCs officielles
 
@@ -218,7 +207,7 @@ netsh interface ipv6 delete neighbors
 
 ---
 
-## 🧪 Exemple de session
+##  Exemple de session
 
 ```bash
 $ python3 ndp_master.py --auto
@@ -237,7 +226,7 @@ $ python3 ndp_master.py --auto
 
 ---
 
-## 📂 Fichiers
+##  Fichiers
 
 ```
 ndp_master.py          # Application principale (1000+ lignes)
@@ -247,6 +236,6 @@ README_NDP.md          # Documentation
 
 ---
 
-## 📝 Licence
+##  Licence
 
-MIT © hackers_tchad — 2024
+MIT © hackers_tchad — 2026
