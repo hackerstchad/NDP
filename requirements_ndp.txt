@@ -1,0 +1,6 @@
+tkinter
+matplotlib>=3.7.0
+networkx>=3.1
+pillow>=10.0.0
+requests>=2.31.0
+scapy>=2.5.0
